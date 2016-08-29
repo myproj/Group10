@@ -1,7 +1,11 @@
 #include "functions.h"
 
 int factorial(int n){
-    if(n!=1){
+    if(n<0){
+	std::cout<<"enter number again and carefully\n";
+	return 0;
+    }
+    else if(n!=1){
 	return(n * factorial(n-1));
     }
     else return 1;
