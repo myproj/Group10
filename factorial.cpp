@@ -2,7 +2,7 @@
 
 int factorial(int n){
     if(n<0){
-		printf("enter number again\n");
+		cout<<"enter number again\n";
 		return 0;
     }
     else if(n!=1){
