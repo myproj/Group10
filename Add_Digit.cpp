@@ -10,11 +10,11 @@ int main()
    while(n != 0)
    {
       remainder = n % 10;
-	  printf("The Remainder is %d\n", remainder);
+	  printf("The Remainder is %d\n", remainder);//printing remainder
       sum = sum + remainder;
-	  printf("The Sum is %d\n", sum);
+	  printf("The Sum is %d\n", sum);//printing sum
       n = n / 10;
-	  printf("The n is %d\n", n);
+	  printf("The n is %d\n", n);//printing n
    }
  
    printf("Sum of digits of entered number = %d\n",sum);
