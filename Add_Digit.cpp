@@ -6,10 +6,11 @@ int main()
  
    printf("Enter an integer\n");
    scanf("%d",&n);
-    
    while(n != 0)
    {
       remainder = n % 10;
+      if(n<=-10)
+      	remainder=-remainder;
 	  printf("The Remainder is %d\n", remainder);//printing remainder
       sum = sum + remainder;
 	  printf("The Sum is %d\n", sum);//printing sum
